@@ -1,16 +1,16 @@
-const axios=require('axios')
-const http=require('http')
+// const axios=require('axios')
+// const http=require('http')
 
-module.exports = {
+// module.exports = {
 
-    getData:()=>{
-            axios.get("http://localhost:3000/products/").then((res)=>{
-                // res.json()
-                console.log(res.data);
-            }).then((data)=>{
-                // console.log(data);
-            })
+//     getData:()=>{
+//             axios.get("http://localhost:3000/products/").then((res)=>{
+//                 // res.json()
+//                 console.log(res.data);
+//             }).then((data)=>{
+//                 // console.log(data);
+//             })
 
         
-    } 
-}  
+//     } 
+// }   
